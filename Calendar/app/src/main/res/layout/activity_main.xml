@@ -19,12 +19,12 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="<-"
-            android:textColor="@color/blue"
+            android:text="prev"
+            android:textColor="@color/black"
             android:background="@null"
             android:textStyle="bold"
             android:onClick="previousMonthAction"
-            android:textSize="20sp"/>
+            android:textSize="15sp"/>
 
 
         <TextView
@@ -41,12 +41,12 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="->"
+            android:text="next"
             android:textColor="@color/blue"
             android:background="@null"
             android:textStyle="bold"
             android:onClick="nextMonthAction"
-            android:textSize="20sp"/>
+            android:textSize="15sp"/>
 
     </LinearLayout>
 
