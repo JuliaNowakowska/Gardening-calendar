@@ -1,11 +1,9 @@
 package com.example.calendar;
 
-import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -55,7 +53,7 @@ public class MainActivity extends AppCompatActivity implements CalendarAdapter.O
         int daysInMonth = yearMonth.lengthOfMonth();
 
         LocalDate firstOfMonth = selectedDate.withDayOfMonth(1);
-        int dayOfWeek = firstOfMonth.getDayOfWeek().getValue();
+        int dayOfWeek = firstOfMonth.getDayOfWeek().getValue() -1;
 
         for(int i = 1; i <= 42; i++)
         {

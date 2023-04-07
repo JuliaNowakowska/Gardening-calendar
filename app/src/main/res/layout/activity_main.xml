@@ -42,7 +42,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="next"
-            android:textColor="@color/blue"
+            android:textColor="@color/black"
             android:background="@null"
             android:textStyle="bold"
             android:onClick="nextMonthAction"
